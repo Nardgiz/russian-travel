@@ -1,0 +1,14 @@
+.footer__item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer__item:hover {
+  opacity: 0.8;
+  -webkit-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  transition-timing-function: linear;
+}

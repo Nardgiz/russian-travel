@@ -1,0 +1,16 @@
+.place__link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  -webkit-text-decoration-line: underline;
+  text-decoration-line: underline;
+  color: #ffffff;
+  margin: 12px 0 0 0;
+  display: block;
+}
+.place__link:hover {
+  opacity: 0.8;
+  -webkit-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  transition-timing-function: linear;
+}

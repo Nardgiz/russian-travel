@@ -1,0 +1,14 @@
+.place__website {
+  max-width: 484px;
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+  align-self: end;
+}
+@media screen and (max-width: 470px) {
+  .place__website {
+    max-width: 288px;
+    margin: 0 16px 0 16px;
+
+  }
+}
