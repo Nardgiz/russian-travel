@@ -13,11 +13,13 @@
   -ms-flex-align: center;
   align-items: center;
   text-decoration: none;
-  padding: 245px auto 0 auto;
+  padding: 245px 312px 343px 312px;
   margin: 0;
   background: rgba(42, 44, 47, 0.3);
   width: 100%;
   color: #fff;
+  max-width: 1184px;
+  aspect-ratio: 16/10;
 }
 
 .cover__item:hover {
@@ -26,18 +28,21 @@
 
 @media screen and (max-width: 1100px) {
   .cover__item {
-    padding: 195px auto;
+    padding: 195px 232px 293px 232px;
+    max-width: 1024px;
   }
 }
 
 @media screen and (max-width: 999px) {
   .cover__item {
-    padding: 215px auto;
+    padding: 215px 104px 213px 104px;
+    max-width: 768px;
   }
 }
 
 @media screen and (max-width: 470px) {
   .cover__item {
-    padding: 33px auto;
+    padding: 33px 16px 97px 16px;
+    max-width: 320px;
   }
 }
