@@ -7,11 +7,13 @@
   text-transform: uppercase;
   color: #ffffff;
 }
+
 @media screen and (max-width: 999px) {
   .lead__caption {
     margin: 8px 0 0 24px;
   }
 }
+
 @media screen and (max-width: 470px) {
   .lead__caption {
     margin: 8px 0 0 16px;

@@ -8,6 +8,7 @@
   margin: 12px 0 0 0;
   display: block;
 }
+
 .place__link:hover {
   opacity: 0.8;
   -webkit-transition-timing-function: linear;
