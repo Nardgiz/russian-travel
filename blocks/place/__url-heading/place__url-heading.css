@@ -11,20 +11,5 @@
 @media screen and (max-width: 1100px) {
   .place__url-heading {
     line-height: 12px;
-    letter-spacing: 2px;
-  }
-}
-
-@media screen and (max-width: 999px) {
-  .place__url-heading {
-    line-height: 12px;
-    letter-spacing: 2px;
-  }
-}
-
-@media screen and (max-width: 470px) {
-  .place__url-heading {
-    line-height: 12px;
-    letter-spacing: 2px;
   }
 }

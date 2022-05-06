@@ -1,9 +1,8 @@
 .lead__image {
-  margin: 0 auto;
-  padding-top: 64px;
+  margin: 0;
+  padding: 64px 0 0 0;
   max-width: 984px;
   max-height: 615px;
-  aspect-ratio: 8/5;
   width: 100%;
 }
 
@@ -17,7 +16,6 @@
 
 @media screen and (max-width: 999px) {
   .lead__image {
-    padding-top: 56px;
     max-width: 768px;
     max-height: 480px;
   }

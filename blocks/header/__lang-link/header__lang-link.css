@@ -7,6 +7,8 @@
   line-height: 28px;
   text-align: right;
   text-decoration: none;
+  padding: 0;
+  list-style: none;
 }
 
 .header__lang-link:last-of-type {
@@ -14,15 +16,10 @@
 }
 
 .header__lang-link:hover {
-  text-decoration: underline;
   opacity: 0.8;
   -webkit-transition-timing-function: linear;
   -o-transition-timing-function: linear;
   transition-timing-function: linear;
-}
-
-.header__lang-link:visited {
-  text-decoration: underline;
 }
 
 @media screen and (max-width: 470px) {

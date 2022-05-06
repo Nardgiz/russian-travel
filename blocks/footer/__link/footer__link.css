@@ -1,11 +1,9 @@
 .footer__link {
   margin-right: 18px;
 }
-
 .footer__link:last-of-type {
   margin-right: 0px;
 }
-
 @media screen and (max-width: 600px) {
   .footer__link {
     margin: 0 0 32px 0;

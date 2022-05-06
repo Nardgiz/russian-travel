@@ -10,7 +10,6 @@
   -ms-flex-direction: row;
   flex-direction: row;
 }
-
 @media screen and (max-width: 600px) {
   .footer__links {
     -webkit-box-orient: vertical;
